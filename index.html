@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hope for Every Child Foundation</title>
+  <link rel="stylesheet" href="style.css" />
+
+  
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("u1X8-grNEpv32kOSC");
+   })();
+</script>
+
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>Hope for Every Child</h1>
+    <p>Bringing Light to the Less Privileged</p>
+    <img src="images/foundation1.jpg" alt="Children Smiling" class="hero-image">
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <img src="images/foundation3.jpg" alt="Helping Hands" class="section-image">
+    <p>We are a non-profit foundation dedicated to helping less privileged children with education, healthcare, and daily support.</p>
+  </section>
+
+  <section id="programs" class="section">
+    <h2>Our Programs</h2>
+    <img src="images/foundation2.jpg" alt="Programs in Action" class="section-image">
+    <ul>
+      <li>Free School Supplies</li>
+      <li>Health and Wellness Clinics</li>
+      <li>Community Feeding Programs</li>
+      <li>Mentorship and Counseling</li>
+    </ul>
+  </section>
+
+  <section id="donate" class="section">
+    <h2>Donate</h2>
+    <p>Your donation helps us make a difference. Every contribution counts.</p>
+    <a href="#" class="donate-button">Donate via PayPal</a>
+  </section>
+
+   <section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form id="contactForm"> <!-- ✅ Add the ID here -->
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>  
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Hope for Every Child Foundation. All rights reserved.</p>
+  </footer>
+  <button id="backToTop">Back to Top</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

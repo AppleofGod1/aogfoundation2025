@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  padding: 40px;
+  background-color: #eee;
+}
+
+.hero-image {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-image {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.donate-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6a00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: none;
+}
+
