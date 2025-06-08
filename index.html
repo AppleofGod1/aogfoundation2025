@@ -42,13 +42,17 @@
     <img src="images/foundation1.jpg" alt="Children Smiling" width="1200" height="600" class="hero-image">
   </header>
 
-  <section id="about" class="section">
+ <section id="about" class="section">
+  <div class="section-wrapper">
     <h2>About Us</h2>
-  <img src="images/foundation3.jpg" alt="Helping Hands" width="800" height="500" class="section-image">
-  <p>
-    <strong>Apple of God Foundation</strong> is a charitable arm of the Apple of God Group, dedicated to transforming lives through love, education, and opportunity. Founded on the core belief that <em>"Let Love Lead,"</em> our mission is to support underserved communities—especially children—by providing access to quality education and essential learning materials.
-  </p>
+    <img src="images/foundation3.jpg" alt="Helping Hands" width="800" height="500" class="section-image">
+    <p>
+      <strong>Apple of God Foundation</strong> is a charitable arm of the Apple of God Group, dedicated to transforming lives through love, education, and opportunity. Founded on the core belief that <em>"Let Love Lead,"</em> our mission is to support underserved communities—especially children—by providing access to quality education and essential learning materials.
+    </p>
+  </div>
 </section>
+
+
 
   <section id="programs" class="section">
     <h2>Our Programs</h2>
@@ -61,35 +65,45 @@
   </section>
 
   <section id="donate" class="section">
-    <h2>Donate</h2>
-    <p>Your donation helps us make a difference. Every contribution counts.</p>
-    <a href="#" class="donate-button">Donate via PayPal</a>
-  </section>
+  <h2>Donate</h2>
+  <div class="donate-wrapper">
+    <img src="./images/donation.png" alt="Donate" class="donate-image" />
+    <div class="donate-text">
+      <p>Your donation helps us make a difference. Every contribution counts.</p>
+      <a href="#" class="donate-button">Donate via PayPal</a>
+    </div>
+  </div>
+</section>
 
-   <section id="contact" class="section">
+
+  <section id="contact" class="section contact-section">
   <h2>Email Us</h2>
-  <form id="contactForm"> <!-- ✅ Add the ID here -->
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>  
-    </div>
-    <div class="form-group">
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" required>
-    </div>
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-    </div>
-    <button type="submit">Send</button>
-  </form>
+  <div class="contact-wrapper">
+    <img src="./images/contact.png" alt="Contact Us" class="contact-image" />
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>  
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
 </section>
 <button id="backToTop">Back to Top</button>
 </div>
+  </div>
 
   <footer class="footer">
     <p>&copy; <span id="year"></span> Apple of God Child Foundation. All rights reserved.</p>
